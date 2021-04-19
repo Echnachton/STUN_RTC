@@ -7,7 +7,7 @@ const server = app.listen(port,_=>{
 });
 const io = require("socket.io")(server,{
     cors: {
-        origin: "https://awesome-payne-cb5eb1.netlify.app/",
+        origin: "https://reverent-darwin-89160c.netlify.app/",
       }
 });
 
